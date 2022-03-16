@@ -21,7 +21,7 @@ md files
 paragraph and 
 paragraph
 
-(page link)[https://github.com/Mequam/vimmd]
+[page link](https://github.com/Mequam/vimmd)
 
 ***formatiiiiiiiiiiiiiing***
 

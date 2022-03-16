@@ -4,7 +4,7 @@ au BufEnter,BufNew *.md nnoremap H A<CR>#<SPACE><RIGHT>
 au BufEnter,BufNew *.md nnoremap s o<CR>---<CR><CR>
 au BufEnter,BufNew *.md nnoremap co I```<CR>```<CR><UP><UP><RIGHT><RIGHT><RIGHT>
 au BufEnter,BufNew *.md nnoremap t :Hexplore<CR>:map g <lt>CR>:let @a=@%<lt>CR>:q<lt>CR>"ap:unmap g<lt>CR><CR>
-au BufEnter,BufNew *.md nnoremap l Ea]<ESC>WBi()[<LEFT><LEFT>
+au BufEnter,BufNew *.md nnoremap l Ea)<ESC>WBi[](<LEFT><LEFT>
 au BufEnter,BufNew *.md noremap f wbi*<ESC>ea*<ESC>
 au BufEnter,BufNew *.md noremap F WBi*<ESC>Ea*<ESC>
 

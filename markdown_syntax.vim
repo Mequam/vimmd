@@ -9,7 +9,7 @@ au BufEnter,BufNew *.md hi lst ctermfg=red cterm=bold
 au BufEnter,BufNew *.md syn match inblockquote /\s*>[' '].*/
 au BufEnter,BufNew *.md hi inblockquote ctermfg=red ctermbg=black
 
-au BufEnter,BufNew *.md syn match lnk /\[.*\]/
+"au BufEnter,BufNew *.md syn match lnk /[(].*[)]/
 au BufEnter,BufNew *.md hi lnk ctermfg=cyan cterm=underline
 
 au BufEnter,BufNew *.md syn match seperator /----*/
